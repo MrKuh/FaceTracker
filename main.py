@@ -5,7 +5,7 @@ cascade_path = pathlib.Path(cv2.__file__).parent.absolute() / "data/haarcascade_
 
 clf = cv2.CascadeClassifier(str(cascade_path))
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 cap.set(3, 1280)
 cap.set(4, 720)
 
